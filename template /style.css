@@ -83,3 +83,12 @@ color: #000000;
     border-radius: 10px;
     color: #FFFFFF;
 }
+
+.homepage_image {
+    position: absolute;
+    width: 641px;
+    height: 621px;
+    left: 621px;
+    top: 188px;
+    border-radius: 75px;
+}
