@@ -1,0 +1,85 @@
+body {
+    position: relative;
+    width: 1366px;
+    height: 5161px;
+    background: #FFFFFF
+}
+    
+.nav-bar {
+    position: absolute;
+    width: 856px;
+    height: 35px;
+    left: 406px;
+    top: 74px;
+    background-color: yellow;
+}
+
+.h3 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 35px;
+letter-spacing: 0.06em;
+color: #000000;
+}
+
+.link1 {
+    position: absolute;
+    left: 29.72%;
+    right: 61.79%;
+    top: 1.43%;
+    bottom: 97.89%;
+}
+
+.link2 {
+    position: absolute;
+    left: 47.95%;
+    right: 45.61%;
+    top: 1.43%;
+    bottom: 97.89%;
+}
+
+.link3 {
+    position: absolute;
+    left: 64.13%;
+    right: 27.45%;
+    top: 1.43%;
+    bottom: 97.89%;
+}
+
+.link4 {
+    position: absolute;
+    left: 82.28%;
+    right: 7.61%;
+    top: 1.43%;
+    bottom: 97.89%;
+}
+
+.h2{
+    position: absolute;
+    width: 287px;
+    height: 94.08px;
+    left: 193px;
+    top: 224px;
+}
+
+.home_paragraph {
+    position: absolute;
+    width: 345px;
+    height: 180px;
+    left: 188px;
+    top: 448px;
+}
+
+.report {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 227px;
+    top: 696px;
+    background: #0073C0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
