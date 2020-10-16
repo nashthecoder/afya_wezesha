@@ -135,7 +135,16 @@ color: #000000;
     height: 1024px;
     left: 0px;
     top: 1022px;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(180deg, #FFFFFF 19.01%, rgba(255, 255, 255, 0) 82.29%), linear-gradient(0deg, #98C3E8, #98C3E8), rgba(152, 195, 232, 0.3112);
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), 
+    linear-gradient(180deg, #FFFFFF 19.01%, rgba(255, 255, 255, 0) 82.29%), 
+    linear-gradient(0deg, #98C3E8, #98C3E8), rgba(152, 195, 232, 0.3112);
+    background-color: 
+        position: absolute;
+        width: 1366px;
+        height: 142px;
+        left: 0px;
+        top: 1076px;
+        background: #DFECF8;;
     }
 
 .report {
@@ -158,8 +167,28 @@ color: #000000;
                 
 .contact_us {
     position: absolute;
+    width: 234px;
+    height: 74px;
+    left: 34px;
+    top: 4168px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 74px;
+    /* identical to box height, or 168% */
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.footer {
+    position: sticky;
     width: 1366px;
-    height: 1069px;
+    height: 93px;
     left: 0px;
-    top: 4092px;
+    top: 5068px;
+    background: #0073C0;
+    border-radius: 0px 100px 0px 0px;
 }
