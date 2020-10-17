@@ -5,8 +5,8 @@ _Description: GBV support application._
 ---
 ## Technologies used 
 
-1. HTML
-2. CSS
+1. HTML 5
+2. CSS 3
 3. Bootstrap 4.5
 4. Javascript - React 
 5. MongoDB

@@ -11,7 +11,7 @@
     <div class="homepage">
             <div class="nav-bar">
                     <header></header>
-                    <img class="header_logo" src="/template/images/afya_logo.png" alt="" />
+                    <img class="header_logo" src="/template/images/afya_logo.png" alt="afya_logo" />
                     <h3 class="link1">User Info</h3>
                     <h3 class="link2">Report</h3>
                     <h3 class="link3">Get Help</h3>
@@ -21,7 +21,7 @@
                 <h2 class="title1">Wezesha</h2>
                 <h2 class="title2">Jamii</h2>
                 <p class="home_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                <img class="homepage_image" src="images/wezesha.png" alt="" />
+                <img class="homepage_image" src="images/wezesha.png" alt="reaching hand" />
                 <button class="report_button">
                     Report Now
                 </button>
@@ -114,16 +114,40 @@
                     <icon class="icon"></icon>
                 </div>
             </div>
-            </div>
-               
+            </div>    
             <div class="contact_us">
-                <h1>Contact Us</h1>
-                <text class="contact_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</text>
+                <div class="contact_header">
+                    <h1>Contact Us</h1>
+                    <text class="contact_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</text>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <td>Your Name:</td>
+                            <td><input type="text" name="c_name" required placeholder="Your Name"></td>
+                        </tr>
+                        <tr>
+                            <td>Your Phone:</td>
+                            <td><input type="text" name="c_phone" required placeholder="Your Phone"></td>
+                        </tr>
+                        <tr>
+                            <td>Subject:</td>
+                            <td><input type="text" name="c_sub" required placeholder="Subject"></td>
+                        </tr>
+                        <tr>
+                            <td>Message:</td>
+                            <td>
+                                <textarea name="c_mes" cols="30" rows="5" placeholder="Your Message"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button class="submit_button">Send Message</button></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="footer">
-                <div>
-
-                </div>
                 <div class="footer_text">
                     <text class="about_us">About Us</text>
                     <text class="faq">FAQ</text>
