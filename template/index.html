@@ -1,163 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <title>Wezesha Jamii</title>
-</head>
-<body>
-    <div class="homepage">
-            <div class="nav-bar">
-                    <header></header>
-                    <img class="header_logo" src="/template/images/afya_logo.png" alt="afya_logo" />
-                    <h3 class="link1">User Info</h3>
-                    <h3 class="link2">Report</h3>
-                    <h3 class="link3">Get Help</h3>
-                    <h3 class="link4">Contact Us</h3>
-            </div>
-            <div class="section">
-                <h2 class="title1">Wezesha</h2>
-                <h2 class="title2">Jamii</h2>
-                <p class="home_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                <img class="homepage_image" src="images/wezesha.png" alt="reaching hand" />
-                <button class="report_button">
-                    Report Now
-                </button>
-            </div>
-            <div class="user_info">
-                    <h1>User info</h1>
-                        <br>
-                            <text>We refer you to a service provider to respond to your needs and help you.
-                            </text>
-                        <br>
-                            <text>Tick what applies to you:</text>
-                        <br>
-                        <text class="user_text">I understand that all information collected on this platfrom is confidential and 
-                            will only be used to personalise recommendations and linkage to service.</text>
-                            <br>
-                            <text class="user_text">I understand that all information collected on this platfrom is confidential 
-                            and I do not wish to continue.</text>
-                        <form>
-                            <input class="user_details" style="width: 644px;" placeholder="Name"> 
-                            <input class="user_details" style="width: 215px;" placeholder="Gender"> 
-                            <input class="user_details" style="width: 947px;" placeholder="Location"> <br>
-                        </form>
-                        <p>Turn on you location.</p>
-                        <icon class="icon2">Loading</icon>
-            </div>
-            <div class="report">
-                <h1>Report</h1>
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Did the incident happen to you?</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                                    </div>
-                                  </div>
-                                <!-- <card class="card_1">
-                                    <h3>Card 1</h3>
-                                    <p>Did the incident happen to you?</p>
-                                    <p>Yes, it happened to me</p>
-                                    <p>No, to somebody I know</p>
-                                </card> -->
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Are you ...</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <button class="date_button">Date of Birth</button>
-                                    </div>
-                                  </div>
-                                
-                                <!-- <card class="card_2">
-                                    <h3>Card 2</h3>
-                                    <p>Are you...</p>
-                                    <p>Female</p>
-                                    <p>Male</p>
-                                    <p>Other</p>
-                                    <p>Do you have a disbility?</p>
-                                    <p>No</p>
-                                    <p>Yes</p>
-                                    
-                                </card> -->
-                            </td>
-                            <td>
-                                <div class="card">
-                                    <div class="card-body">
-                                      <h5 class="card-title">What happened?</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                  </div>
-                                <!-- <card class="card_3">
-                                    <h3>Card 3</h3>
-                                        <p>What happened?</p>
-                                        <p>I was raped</p>
-                                        <p>I was punched</p>
-                                        <p>I was denied food</p>
-                                        <p>I was locked up</p>
-                                        <p>Other</p>
-                                </card> -->
-                            </td>
-                        </tr>
-                    </table>
-            </div>
-            <div class="get_help">
-                <h1>Get Help</h1>
-                <div class="search-bar">
-                    <div class="map_image">
-                        <h3>Map Image</h3>
-                    </div>
-                    <icon class="icon"></icon>
-                </div>
-            </div>
-            </div>    
-            <div class="contact_us">
-                <div class="contact_header">
-                    <h1>Contact Us</h1>
-                    <text class="contact_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</text>
-                </div>
-                <div>
-                    <table>
-                        <tr>
-                            <td>Your Name:</td>
-                            <td><input type="text" name="c_name" required placeholder="Your Name"></td>
-                        </tr>
-                        <tr>
-                            <td>Your Phone:</td>
-                            <td><input type="text" name="c_phone" required placeholder="Your Phone"></td>
-                        </tr>
-                        <tr>
-                            <td>Subject:</td>
-                            <td><input type="text" name="c_sub" required placeholder="Subject"></td>
-                        </tr>
-                        <tr>
-                            <td>Message:</td>
-                            <td>
-                                <textarea name="c_mes" cols="30" rows="5" placeholder="Your Message"></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><button class="submit_button">Send Message</button></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="footer">
-                <div class="footer_text">
-                    <text class="about_us">About Us</text>
-                    <text class="faq">FAQ</text>
-                    <text class="copyright">2020 © NashTheCoder. All rights reserved.</text>
-                </div>
-                <div>
-                    
-                </div>
-            </div>
-    </div>
-    </div>
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="/template/images/afya_logo.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <ul><a>User Info</a></ul>
+                <ul><a>Report</a></ul>
+                <ul><a>Get Help</a></ul>
+                <ul><a>Contact Us</a></ul>
+            </ul>
+        </nav>
+    </header>
+    <section class="homepage">
+            <p>Wezesha</p>
+            <p>Jamii</p>
+            <img src="images/wezesha.png" alt"reaching_hands">
+    </section>
+    <section class="user_info">
+        <h2>User Info</h2>
+        <p>We refer you to a service provider to respond to your needs and help you.</p>
+        <p>Tick what applies to you:</p>
+        <p>I understand that all information collected on this platfrom is confidential and 
+            will only be used to personalise recommendations and linkage to service.</p>
+        <p>I understand that all information collected on this platfrom is confidential 
+            and I do not wish to continue.</p>
+        <form>
+            <input class="user_details" style="width: 644px;" placeholder="Name"> 
+            <input class="user_details" style="width: 215px;" placeholder="Gender"> <br>
+            <input class="user_details" style="width: 947px;" placeholder="Location"> 
+        </form>
+        <p>Turn on your location</p>
+        <p>Loading</p>
+    </section>
+    <section class="report">
+        <h2>Report</h2>
+        <div>
+            <form>
+                <text>Did the incident happen to you?</text><br>
+                <input type="radio"> Yes, it happened to me <br>
+                <input type="radio"> No, it happened to me <br>
+            </form>
+        </div>
+        <div>
+            <form>
+                <text>Are you...</text><br>
+                <input type="radio"> Female <br>
+                <input type="radio"> Male <br>
+                <input type="radio"> Other <input type="text" name="r_other" required placeholder="Other"> <br>
+                <text>Do you have a disability?</text> <br>
+                <input type="radio"> No, 
+                <input type="radio"> Yes, <input type="text" name="r_define" required placeholder="Please define"> <br>
+            </form>
+        </div>
+        <div>
+            <form>
+                <text>What happened?</text><br>
+                <input type="radio"> I was raped <br>
+                <input type="radio"> I was punched <br>
+                <input type="radio"> I was denied food <br>
+                <input type="radio"> I was locked up<br>
+                <input type="radio"> Other <input type="text" name="r_other" required placeholder="Please explain"> <br>
+            </form>
+        </div>
+    </section>
+    <section class="get_help">
+        <h2>Get Help</h2>
+        <div>
+            <form>
+                <input type="search" name="s" placeholder="Search...">
+                <input type="submit" value=">">
+            </form>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8014092357403!2d36.793616451045175!3d-1.293635099051829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10bdadb89515%3A0x5653fe45e4a1ea56!2sThe%20Nairobi%20Womens%20Hospital-Hurlingham!5e0!3m2!1sen!2ske!4v1602953553178!5m2!1sen!2ske" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+    <section class="contact_us">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+        <div>
+            <p>Address</p>
+            <text>Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</text>
+            <p>Phone</p>
+            <text>+254-712-731-431</text>
+            <p>Email</p>
+            <text>help@afya.com</text>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>Your Name:</td>
+                    <td><input type="text" name="c_name" required placeholder="Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Your Phone:</td>
+                    <td><input type="text" name="c_phone" required placeholder="Your Phone"></td>
+                </tr>
+                <tr>
+                    <td>Subject:</td>
+                    <td><input type="text" name="c_sub" required placeholder="Subject"></td>
+                </tr>
+                <tr>
+                    <td>Message:</td>
+                    <td>
+                        <textarea name="c_mes" cols="30" rows="5" placeholder="Your Message"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class="submit_button">Send Message</button></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_text">
+            <a href="about.html">
+                <text class="about_us">About Us</text>
+            </a>
+            <a href="faq.html">
+                <text class="faq">FAQ</text>
+            </a> 
+                <text class="copyright">2020 © NashTheCoder. All rights reserved.</text>
+        </div>
+    </footer>
+  </body>
 </html>
