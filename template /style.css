@@ -144,7 +144,16 @@ color: #000000;
         height: 142px;
         left: 0px;
         top: 1076px;
-        background: #DFECF8;;
+        background: #DFECF8;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 74px;
+        /* identical to box height, or 168% */
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #000000;
     }
 
 .report {
@@ -162,6 +171,34 @@ color: #000000;
     height: 1050px;
     left: 0px;
     top: 3068px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 74px;
+    /* identical to box height, or 168% */
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+.search-bar {
+    position: absolute;
+    width: 921px;
+    height: 57px;
+    left: 339px;
+    top: 59px;
+    background: #ffffff;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.icon {
+    position: absolute;
+    height: 30.98px;
+    left: 1208px;
+    right: 127.06px;
+    bottom: 949.02px;
+    background: #C4C4C4;
 }
 
                 
@@ -171,20 +208,40 @@ color: #000000;
     height: 74px;
     left: 34px;
     top: 4168px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 74px;
     /* identical to box height, or 168% */
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.04em;
     color: #000000;
+    background-color: 
+        position: absolute;
+        width: 1366px;
+        height: 142px;
+        background: #DFECF8;
+}
+.contact_us > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    letter-spacing: 0.04em;
+    color: #000000;
+    position: flex;
+    width: 780px;
+    height: 60px;
+    left: 34px;
+    top: 4240px;
 }
 
 .footer {
     position: sticky;
+    display: flex;
     width: 1366px;
     height: 93px;
     left: 0px;
