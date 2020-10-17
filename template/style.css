@@ -4,7 +4,7 @@ body {
     height: 5161px;
     background: #FFFFFF
 }
-    
+/* Homepage */
 .homepage {
     position: flex;
     width: 1366px;
@@ -168,6 +168,7 @@ color: #000000;
     color: #3F4042;
 }
 
+/* User Info page */
 .user_info {
     position: absolute;
     width: 1366px;
@@ -217,6 +218,7 @@ color: #000000;
     border-radius: 15px;
 }
 
+/* Report page */
 .report {
     position: absolute;
     width: 1366px;
@@ -245,6 +247,8 @@ color: #000000;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
 }
+
+/* Get Help page */
 .get_help {
     position: absolute;
     width: 1366px;
@@ -292,7 +296,7 @@ border-radius: 10px;
     background: #C4C4C4;
 }
 
-                
+/* Contact Us page */   
 .contact_us {
     position: absolute;
     width: 234px;
@@ -348,6 +352,7 @@ border-radius: 10px;
 
 }
 
+/* Footer */
 .footer {
     position: sticky;
     display: flex;
