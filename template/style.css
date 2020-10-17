@@ -331,7 +331,24 @@ border-radius: 10px;
     color: #000000;
 }
 
+.contact_text {
+    width: 780px;
+    height: 60px;
+    left: 34px;
+    top: -10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    letter-spacing: 0.04em;
+    color: #000000;
+
+}
+
 .footer {
+    display: flex;
     position: sticky;
     display: flex;
     width: 1366px;
@@ -342,6 +359,9 @@ border-radius: 10px;
     border-radius: 0px 100px 0px 0px;
 }
 
+.footer_text {
+    padding-top: 34px;
+}
 .about_us {
 width: 89px;
 height: 30px;
