@@ -8,7 +8,8 @@ _Description: GBV support application._
 1. HTML
 2. CSS
 3. Bootstrap 4.5
-4. Javascript
+4. Javascript - React 
 5. MongoDB
 
 
+**_Developed by NashTheCoder and Shanice_**

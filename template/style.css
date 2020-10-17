@@ -83,13 +83,14 @@ color: #000000;
     bottom: 97.89%;
 }
 
-.h2{
+.h2 {
     position: absolute;
     width: 287px;
     height: 94.08px;
     left: 193px;
     top: 224px;
 }
+
 
 .home_paragraph {
     position: absolute;
@@ -175,17 +176,16 @@ color: #000000;
     height: 1024px;
     left: 0px;
     padding-left: 52px;
+    padding-top: 50px;
     top: 1022px;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF), 
     linear-gradient(180deg, #FFFFFF 19.01%, rgba(255, 255, 255, 0) 82.29%), 
     linear-gradient(0deg, #98C3E8, #98C3E8), rgba(152, 195, 232, 0.3112);
-    background-color: 
-        position: absolute;
-        width: 1366px;
-        height: 142px;
-        left: 0px;
-        top: 1076px;
-        background: #DFECF8;
+    width: 1366px;
+    height: 142px;
+    left: 0px;
+    top: 1076px;
+    background: #DFECF8;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -195,6 +195,7 @@ color: #000000;
     text-align: left;
     letter-spacing: 0.04em;
     color: #000000;
+
     }
 
 
@@ -209,14 +210,33 @@ color: #000000;
     color: #3F4042;
 }
 
+
 .user_details {
-    width: 644px;
     height: 74px;
     left: 206px;
     top: 1571px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #E5E5E5;
     border-radius: 15px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
 }
+
+.user_text {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.6%;
+    /* or 30px */
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+
 
 /* Report page */
 .report {
@@ -234,6 +254,39 @@ color: #000000;
     line-height: 74px;
     /* identical to box height, or 168% */
     text-align: left;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.card {
+    padding-top: 44px;
+    padding-left: 39px;
+    width: 90%;
+    height: 645px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #FFFFFF;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 74px;
+    /* identical to box height, or 370% */
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.card-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 74px;
+    /* identical to box height, or 411% */
     letter-spacing: 0.04em;
     color: #000000;
 }
