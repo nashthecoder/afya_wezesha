@@ -18,6 +18,7 @@ body {
 }
 
 .header_logo {
+    position: absolute;
     width: 156px;
     height: 116px;
     left: 71px;
@@ -348,7 +349,6 @@ border-radius: 10px;
 }
 
 .footer {
-    display: flex;
     position: sticky;
     display: flex;
     width: 1366px;
