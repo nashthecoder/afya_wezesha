@@ -21,12 +21,13 @@ body {
 
 .main_menu > ul {
     margin:  0px;
-    padding: 0px;
+    padding: 15px;
+    float: right;
 }
 
 .main_menu > ul > ul{
     display: inline-block;
-    font-family: Avenir;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -37,7 +38,11 @@ body {
 }
 
 .main_menu > ul > ul >a:hover{
-    color: #3576C0;    
+    color: #97a4b3;    
+}
+
+.clearfix {
+    clear: both;
 }
 
 .top {
@@ -77,12 +82,13 @@ body {
     padding: 100px;
 }
 
-.homepage > .p {
+.home_text {
     position: absolute;
     width: 345px;
     height: 180px;
     left: 188px;
     top: 448px;
+    padding: 15px;
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
@@ -93,13 +99,19 @@ body {
     color: #3F4042;
 }
 
-.home_image {
-    float: right;
-    padding: 15px;
-    width: 641px;
-    height: 621px;
+.banner {
+    width: 1300px;
+    height: auto;
+    padding: 185px;
 }
+
+.banner img {
+    width: auto;
+    height: auto;
+}
+
 #homepage {
+    margin: 15px;
     width: auto;
     height: 1024px;
     left: 0px;
@@ -109,6 +121,7 @@ body {
 }
 
 #user_info {
+    margin: 15px;
     width: auto;
     height: 1024px;
     left: 0px;
@@ -117,6 +130,7 @@ body {
 }
 
 #report {
+    margin: 15px;
     width: auto;
     height: 1024px;
     left: 0px;
@@ -125,6 +139,7 @@ body {
 }
 
 #get_help {
+    margin: 15px;
     width: auto;
     height: 1050px;
     left: 0px;
@@ -132,10 +147,30 @@ body {
 }
 
 #contact_us {
+    margin: 15px;
     width: auto;
     height: 1069px;
     left: 0px;
     top: 4092px;
 
 }
+
+#footer {
+    margin: 15px;
+    margin-bottom: -15px;
+    width: auto;
+    height: 93px;
+    left: 0px;
+    top: 5068px;
+    background-color: #0073C0;
+}
+
+.footer_text {
+    width: 808.41px;
+    height: 30px;
+    left: 55px;
+    top: 5102px;
+    color: #FFFFFF;
+}
+
 

@@ -11,5 +11,8 @@ _Description: GBV support application._
 4. Javascript - React 
 5. MongoDB
 
+image by <a href='https://www.freepik.com/vectors/sun'>Sun vector created by kjpargeter - www.freepik.com</a>
+
+
 
 **_Developed by NashTheCoder and Shanice_**
